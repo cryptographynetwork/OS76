@@ -5,9 +5,14 @@
 #ifndef BITCOIN_BIGNUM_H
 #define BITCOIN_BIGNUM_H
 
+#include "serialize.h"
+#include "uint256.h"
+#include "version.h"
+
 #include <stdexcept>
 #include <vector>
 #include <openssl/bn.h>
+#include <stdint.h>
 
 #include "util.h" // for uint64
 
